@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <h1>Pedido Pizza</h1>
+    <form action="teste" method="get">
+Nome:
+    <input type="text" name="NOME"> <br>
+Email:
+    <input type="email" name="email"> <br>
+Tamanho:
+    <input type="radio" name="TAMANHO" value="P"> Pequeno
+    <input type="radio" name="TAMANHO" value="M"> Médio
+    <input type="radio" name="TAMANHO" value="G"> Grande <br>
+Sabor:
+    <select name="sabor">
+    <option></option>
+    <option>Calabresa</option>
+    <option>Queijos</option>
+    <option>Presunto</option>
+    <option>Napolitana</option>
+    </select> <br>
+Adicionais:
+    <input type="checkbox" name="borda" value="sim"> Borda
+    <input type="checkbox" name="Catupiry" value="sim"> Catupiry
+    <input type="checkbox" name="Queijo" value="sim"> Queijo Extra<br>
+Data de Entrega: 
+    <input type ="date" name="dataentrega"> <br> 
+Comentarios: <br>
+    <textarea name="mensagem" rows="10" cols="27"></textarea><br>
+    <input type="submit">
+</form>
+</body>
+</html>
